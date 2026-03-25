@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Evolucion de la IHM</title>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <header>
+        <h1>Evolucion de la Interacion Hombre-Máquina</h1>
+    </header>
+    <div class="timeline-container">
+        <div class="timeline-event active">
+            <h2>Tarjetas Perforadas</h2>
+            <span class="timeline-date">1940s - 1960s</span>
+            <p>
+                La interacción se realizaba a través de tarjetas de papel perforadas.
+                Era un método físico, lento y propenso a errores, accesible solo para expertos técnicos.
+                El feedback era casi inexistente, ya que la salida se obtenia despues de que las 
+                tarjetas eran procesadas por máquinas voluminosas.
+            </p>
+        </div>
+        <div class="timeline-event">
+            <h2>Líneas de comando (CLI)</h2>
+            <span class="timeline-date">1970s -1980s</span>
+            <p>
+                Con la llegada de sistemas como MS-DOS y UNIX, la interaccion se movio a terminales de texto.
+                Los usuarios debian memorizar comandos especificos para ejecutar programas.
+                Aunque mas rapida que las tarjetas perforadas, aun requeria un alto nivel de conocimiento tecnico.
+            </p>
+        </div>
+        <div class="timeline-event">            
+            <h2>Interfaz grafica de usuario (GUI)</h2>
+            <span class="timeline-date">1980s - 1990s</span>
+            <p>
+                La GUI, popularizaron por Apple y Microsoft, revoluciono la IHM. El uso del raton, iconos, ventanas y menus hizo que las computadoras fueran accesibles
+                para el publico general. La metafora del "escritorio" facilito uan interaccion mas intuitiva y visual.
+            </p>
+        </div>
+        <div class="timeline-event">
+            <h2>Interfaces Tactiles</h2>
+            <span class="timeline-date">2000s - 2010s</span>
+            <p>
+                La era de los smartphones y tablets introdujo los interfaces multitactiles. La interaccion se volvio mas directa y natural, 
+                permitiendo gestos como deslizar, pellizcar y tocar. Esto democratico aun mas la tecnologia y la hizo omnipresente en la vida diaria.
+            </p>
+        </div>
+        <div class="timeline-event">
+            <h2>Interfaces de voz (VUI)</h2>
+            <span class="timeline-date">2010s - Actualidad</span>
+            <p>
+                Asistentes como Alexa, Siri y Google Assitant marcaron el inicio de la interacion sin manos, usando el lenguaje natural como 
+                principal metodo de entrada. La tecnologia se vuelve "visible", permitiendo que los usuarios realicen tareas simplemente hablando.
+            </p>
+        </div>
+    </div>
+    <div class="timeline-navigation">
+        <button id="prevBtn" disabled>&#8249;</button>
+        <button id="nextBtn">&#8250;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
